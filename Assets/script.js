@@ -1,5 +1,10 @@
-var currentDay = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
+$(".clearBtn").on("click", function(){
+    localStorage.clear();
+    window.location.reload();
+})
 
+// set the local date and time in the jumbotron
+var currentDay = moment().format("dddd, MMMM Do YYYY");
 $('#currentDay').text(currentDay);
 
 $(".saveBtn").on("click", function(){
@@ -7,8 +12,6 @@ $(".saveBtn").on("click", function(){
     var time = $(this).siblings("textarea").attr("id");
     localStorage.setItem(time, userText);
 })
-
-$("#9").val(localStorage.getItem("9"));
 
 for (i = 9; i < 18; i++) {
     $("#" + i).val(localStorage.getItem(i));
