@@ -1,3 +1,7 @@
+var currentDay = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
+
+$('#currentDay').text(currentDay);
+
 $(".saveBtn").on("click", function(){
     var userText = $(this).siblings("textarea").val();
     var time = $(this).siblings("textarea").attr("id");
