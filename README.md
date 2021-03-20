@@ -28,8 +28,8 @@ THEN the saved events persist
 
 ## Usage
 
-[Repository Link](https://github.com/BraxB/scheduler)  
-[Deployed Application](https://braxb.github.io/scheduler/)
+[Repository Link](https://github.com/BraxB/schedule)  
+[Deployed Application](https://braxb.github.io/schedule/)
 
 ---
 
