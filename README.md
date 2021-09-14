@@ -2,7 +2,9 @@
 
 ## The Repo
 
-This repo pertains to the day scheduler app created for week 5 of Georgia Tech's coding bootcamp. It uses jquery, bootstrap, and momentjs to save whatever is written in each hour's textarea to the localstorage. It then color codes each block based on whether that hour is current, past, or future. I added a button to the top that allows a user to clear all data as well.
+This repo is a day scheduling app to track productivity throughout the work day. It uses jquery, bootstrap, and momentjs to save whatever is written in each hour's textarea to the localstorage. It then color codes each block based on whether that hour is current, past, or future. I added a button to the top that allows a user to clear all data as well.
+
+Future iteration may include a dark mode as well. 
 
 ![Screenshot of final product](https://github.com/BraxB/schedule/blob/b8a8db014a943e7dbb771322dcf9cdf73d45bf93/Assets/deployedpic.png)
 
